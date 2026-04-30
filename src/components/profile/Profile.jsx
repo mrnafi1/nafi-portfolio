@@ -1,4 +1,4 @@
-import person from "../../assets/images/person2.png";
+import person from "../../assets/nafi.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "../common/socialMedia/SocialMedia";
@@ -33,19 +33,18 @@ const Profile = () => {
           <h2
             className={`text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] max-md:text-center font-semibold mb-8`}
           >
-            I am Professional Web Developer
+            I am a Passionate Frontend Developer
           </h2>
           <div
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-              I develop services for customers specializing creating
-              stylish, modern websites, web services and online stores. My
-              passion is to develop digital user focused interfaces.
+            "Hello! I am Nafi, an enthusiastic Frontend Web Developer based in Sylhet. My programming journey is a bit unique—coming from an Economics background at National University, I discovered my true passion in coding. I realized that the analytical thinking I developed in economics perfectly aligns with structuring logic for web applications.
+
+I truly enjoy creating clean, responsive, and visually appealing websites. Working with modern technologies like React, Next.js, and Tailwind CSS is what I love doing most. Transforming raw ideas into interactive, user-friendly digital experiences is what keeps me motivated every day."
             </p>
             <p className="mt-3">
-              I offer services for customers specializing creating
-              stylish, modern websites, web services with modern technologies.
+              "When I am not debugging code or exploring new web frameworks, I have a few hobbies that keep me energized. I am highly dedicated to personal fitness and follow a structured home workout routine for body recomposition. I am also a huge football fan and love analyzing international matches and team strategies. I believe the discipline from my fitness goals and the analytical mindset from football help me stay focused and sharp in my development journey!"
             </p>
           </div>
           <div className="mt-8 flex max-md:justify-center">
