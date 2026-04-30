@@ -3,21 +3,21 @@ import Roles from "./Roles";
 const rolesData = [
   {
     id: 1,
-    title: "User Experience (UX)",
+    title: "Frontend Web Development",
     description:
-      "I design intuitive and enjoyable experiences by understanding user needs, conducting research, and creating wireframes and prototypes that enhance usability.",
+      "I specialize in building dynamic, interactive, and high-performance web applications. My core expertise lies in React.js and Next.js, ensuring robust and scalable logic.",
   },
   {
     id: 2,
-    title: "User Interface (UI)",
+    title: "Responsive Web Design",
     description:
-      "I craft visually appealing and consistent interfaces, focusing on layout, color, and typography to ensure a seamless and engaging user journey.",
+      "I create visually stunning websites that work perfectly on all screen sizes. Using Tailwind CSS, I ensure a seamless experience on mobile, tablet, and desktop.",
   },
   {
     id: 3,
-    title: "Web Development",
+    title: "API Integration & Performance",
     description:
-      "I build responsive and high-performance web applications using modern technologies, ensuring accessibility, scalability, and maintainability.",
+      "I focus on integrating complex APIs and third-party services while optimizing code for speed and accessibility to provide the best user experience.",
   },
 ];
 
@@ -31,23 +31,23 @@ const Profession = () => {
         <p className="section-title max-md:text-center">What I do?</p>
         <div className="mt-6 text-[14px]">
           <p className="text-xs sm:text-lg font-normal text-gray-400 mb-4">
-            I specialize in designing user experiences, crafting engaging
-            interfaces, and building robust web applications that deliver value
-            and usability.
+            I specialize in crafting engaging interfaces and building robust
+            frontend applications that deliver real value and usability.
           </p>
           <p className="text-xs sm:text-lg font-normal text-gray-400">
-            My approach combines creativity and technical expertise to deliver
-            solutions that are both visually appealing and highly functional for
-            users.
+            My approach combines technical expertise in React and Tailwind CSS to
+            deliver solutions that are both visually appealing and highly
+            functional for users.
           </p>
         </div>
         <a
-          href="#!"
+          href="#contact"
           className="mt-5 md:mt-12.5 btn btn-primary text-white w-fit md:py-3 md:px-6 text-[12px] sm:text-[16px] font-semibold max-md:mx-auto max-md:mb-5"
         >
           Say Hello!
         </a>
       </div>
+
       <div className="">
         {rolesData.map((role, index) => (
           <Roles role={role} key={index} />
