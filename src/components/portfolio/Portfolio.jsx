@@ -9,60 +9,29 @@ import card6 from "../../assets/images/portfolio-images/card-6.png";
 const projectData = [
   {
     id: 1,
-    image: card1,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
-    description:
-      "I focus on crafting smooth, responsive interfaces that balance aesthetic appeal with practical functionality.",
-    link: "#!",
+    image: card1, 
+    category: "Tailwind CSS & JavaScript",
+    title: "Job Tracker",
+    description: "A modern organizational tool designed to help users track professional job applications and their statuses efficiently.",
+    link: "https://github.com/mrnafi1/job-tracker", 
   },
   {
     id: 2,
     image: card2,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
-    description:
-      "Designed an intuitive dashboard for product management, emphasizing clarity and user efficiency.",
-    link: "#!",
+    category: "Next.js & React",
+    title: "Bond Reminder",
+    description: "A functional web application built with Next.js to manage and track important reminders and schedules seamlessly.",
+    link: "https://github.com/mrnafi1/Bond-Remainder",
   },
   {
     id: 3,
     image: card3,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
-    description:
-      "Developed a modern admin panel with a focus on usability and seamless navigation for end users and so on.",
-    link: "#!",
-  },
-  {
-    id: 4,
-    image: card4,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
-    description:
-      "Created a responsive dashboard layout that adapts smoothly across devices and screen sizes and so on.",
-    link: "#!",
-  },
-  {
-    id: 5,
-    image: card5,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
-    description:
-      "Implemented interactive charts and widgets to visualize product data effectively for stakeholders.",
-    link: "#!",
-  },
-  {
-    id: 6,
-    image: card6,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
-    description:
-      "Enhanced user experience by streamlining workflows and optimizing interface components and so on.",
-    link: "#!",
-  },
+    category: "React.js & API Integration",
+    title: "GitHub Issues Tracker",
+    description: "A dynamic React application that integrates with the GitHub API to fetch, track, and manage repository issues in real-time.",
+    link: "https://mrnafi1.github.io/assignment-5/", 
+  }
 ];
-
 const Portfolio = () => {
   return (
     <div
