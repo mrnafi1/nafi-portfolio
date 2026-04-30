@@ -1,4 +1,4 @@
-import person from "../../assets/images/person.png";
+import person from "../../assets/images/nafi.jpeg";
 import "./introduction.css";
 import InformationSummary from "./InformationSummary";
 
@@ -7,17 +7,17 @@ const informationSummaryData = [
   {
     id: 1,
     title: "Experience",
-    description: "1.5 Y",
+    description: "1 Y",
   },
   {
     id: 2,
     title: "Projects Completed",
-    description: "25+",
+    description: "3",
   },
   {
     id: 3,
-    title: "Happy Clients",
-    description: "18",
+    title: "Technologies",
+    description: "React,Next.js",
   },
 ];
 
