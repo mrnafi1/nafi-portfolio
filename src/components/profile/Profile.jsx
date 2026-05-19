@@ -39,9 +39,9 @@ const Profile = () => {
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-            "Hello! I am Nafi, an enthusiastic Frontend Web Developer based in Sylhet. My programming journey is a bit unique—coming from an Economics background at National University, I discovered my true passion in coding. I realized that the analytical thinking I developed in economics perfectly aligns with structuring logic for web applications.
+              "Hello! I am Nafi, an enthusiastic Frontend Web Developer based in Sylhet. My programming journey is a bit unique—coming from an Economics background at National University, I discovered my true passion in coding. I realized that the analytical thinking I developed in economics perfectly aligns with structuring logic for web applications.
 
-I truly enjoy creating clean, responsive, and visually appealing websites. Working with modern technologies like React, Next.js, and Tailwind CSS is what I love doing most. Transforming raw ideas into interactive, user-friendly digital experiences is what keeps me motivated every day."
+              I truly enjoy creating clean, responsive, and visually appealing websites. Working with modern technologies like React, Next.js, and Tailwind CSS is what I love doing most. Transforming raw ideas into interactive, user-friendly digital experiences is what keeps me motivated every day."
             </p>
             <p className="mt-3">
               "When I am not debugging code or exploring new web frameworks, I have a few hobbies that keep me energized. I am highly dedicated to personal fitness and follow a structured home workout routine for body recomposition. I am also a huge football fan and love analyzing international matches and team strategies. I believe the discipline from my fitness goals and the analytical mindset from football help me stay focused and sharp in my development journey!"
@@ -56,7 +56,7 @@ I truly enjoy creating clean, responsive, and visually appealing websites. Worki
             </a>
             <a
               className={`btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 hover:border-picto-primary bg-white duration-300 transition-all hover:text-picto-primary  ms-4 text-xs xxs:text-[14px] sm:text-[16px]`}
-              href="#"
+              href="https://drive.google.com/file/d/1Pah9r2ugEhgCpXMzS6AdjNl_GGCfB0Xa/view?usp=sharing"
             >
               <FontAwesomeIcon icon={faDownload} /> Download CV
             </a>
