@@ -56,7 +56,7 @@ const Profile = () => {
             </a>
             <a
               className={`btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 hover:border-picto-primary bg-white duration-300 transition-all hover:text-picto-primary  ms-4 text-xs xxs:text-[14px] sm:text-[16px]`}
-              href="https://drive.google.com/file/d/1Pah9r2ugEhgCpXMzS6AdjNl_GGCfB0Xa/view?usp=sharing"
+              href="https://drive.google.com/file/d/1B4vWaEWvWRqME22T_LuFZMS42KWCFL7x/view?usp=sharing"
             >
               <FontAwesomeIcon icon={faDownload} /> Download CV
             </a>
